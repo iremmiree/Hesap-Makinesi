@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/calculator.css'>
+</head>
+<body>
+
+    <div class="container">
+       
+        <input type="text" id="sonuc" disabled >
+
+        <div id="buttons">
+            <button type="button" value="clear" class="delete-all">Delete All</button>
+            <button type="button" class="operator" value="/" id="divide">&divide;</button>
+            
+            <button type="button" id="seven" value="7">7</button>
+            <button type="button" id="eight" value="8">8</button>
+            <button type="button" id="nine" value="9">9</button>
+            
+            <button type="button" class="operator" value="*" id="multiply">&times;</button>
+            
+            <button type="button" id="four" value="4">4</button>
+            <button type="button" id="five" value="5" >5</button>
+            <button type="button" id="six" value="6">6</button>
+            
+            <button type="button" class="operator" value="+" id="add">+</button>
+            
+            <button type="button" id="one" value="1">1</button>
+            <button type="button" id="two" value="2">2</button>
+            <button type="button" id="3" value="3">3</button>
+            
+            <button type="button" class="operator" value="-" id="subtract">-</button>
+            
+            <button type="button" disabled></button>
+            <button type="button" id="zero" value="0">0</button>
+            <button type="button" class="dot" value=".">.</button>
+            
+            <button type="button" value="=" class="equal operator">=</button>
+        </div>
+    </div>
+
+    
+
+    <script src='js/calculator.js'></script>
+</body>
+</html>
